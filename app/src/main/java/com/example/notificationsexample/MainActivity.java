@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         notificationManager = NotificationManagerCompat.from(this);
     }
 
+    // for checkoff
+
     public void sendOnChannel1(View v){
         editTextTitle = findViewById(R.id.title);
         editTextMessage = findViewById(R.id.message);
